@@ -6,16 +6,27 @@ package com.mycompany.app;
 public class App
 {
 
-    private final String message = "Hello World!";
-
-    public App() {}
-
-    public static void main(String[] args) {
-        System.out.println(new App().getMessage());
-    }
-
-    private final String getMessage() {
-        return message;
-    }
+    String s2="James Gosling";
+		
+		for(int i=0;i<2;i++)
+		{
+			System.out.println("Who is the Inverntor of Java??");
+			
+			Scanner s=new Scanner(System.in);
+			
+			String s1=s.nextLine();
+			
+			if(s2.equalsIgnoreCase(s1))
+			{
+				System.out.println("Yes correct");
+				System.exit(0);
+			}
+			else{
+				
+				System.out.println("Try Again");
+			}
+			
+		}
+		System.out.println(s2);
 
 }
