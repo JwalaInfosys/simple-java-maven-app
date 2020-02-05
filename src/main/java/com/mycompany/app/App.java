@@ -6,6 +6,7 @@ package com.mycompany.app;
 public class App
 {
 
+	public static void main(String[] args){
     String s2="James Gosling";
 		
 		for(int i=0;i<2;i++)
@@ -28,5 +29,6 @@ public class App
 			
 		}
 		System.out.println(s2);
+		}
 
 }
