@@ -10,11 +10,6 @@ pipeline {
 	    }
 	
 	    stages {
-		
-		stage('Preparation') {
-		git 'https://github.com/JwalaInfosys/simple-java-maven-app'
-		sleep 3	  
-		}
 	        stage ('Compile') {
 
             steps {
